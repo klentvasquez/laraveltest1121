@@ -2,7 +2,7 @@ applications:
 - name: laraveltestproject
   host: laraveltestproject
   memory: 128M
-  buildpack: php-builpack
+  buildpack: https://github.com/cloudfoundry/php-buildpack
   env:
     CF_STAGING_TIMEOUT: 15
     CF_STARTUP_TIMEOUT: 15

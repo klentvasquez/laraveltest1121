@@ -17,7 +17,8 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('hello');
+		$messages = Message::showMessages();
+		return View::make('content.home')->with('messages', $messages);
 	}
 
 }

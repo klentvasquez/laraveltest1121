@@ -1,6 +1,6 @@
 applications:
-- name: laraveltestproject
-  host: laravel-demo
+- name: laraveltest1121
+  host: laravelproject
   memory: 128M
   buildpack: https://github.com/cloudfoundry/php-buildpack
   env:

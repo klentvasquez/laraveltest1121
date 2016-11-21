@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'us-cdbr-iron-east-04.cleardb.net',
-			'database'  => 'ad_a827c7d8aaa519a',
-			'username'  => 'b3d9296c48cdc4',
-			'password'  => '9ac15eb8',
+			'host'      => 'localhost',
+			'database'  => 'forge',
+			'username'  => 'forge',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
